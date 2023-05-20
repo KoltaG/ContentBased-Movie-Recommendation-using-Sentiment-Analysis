@@ -52,8 +52,8 @@ public class MovieDetailsActivity extends AppCompatActivity implements View.OnCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_details);
-        likeURL = "https://major-project-final-246818.appspot.com/addLike/";
-        dislikeURL = "https://major-project-final-246818.appspot.com/addDislike/";
+        likeURL = "https://movie-review-387316.ew.r.appspot.com/addLike/";
+        dislikeURL = "https://movie-review-387316.ew.r.appspot.com/addDislike/";
         buttonLaunchGoogle = findViewById(R.id.buttonLaunchInternet);
         buttonLike = findViewById(R.id.buttonLike);
         buttonDislike = findViewById(R.id.buttonDislike);

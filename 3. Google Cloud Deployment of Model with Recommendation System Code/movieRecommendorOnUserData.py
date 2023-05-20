@@ -10,7 +10,7 @@ import psutil
 # Location where user data have been saved
 userLikeDataLocation='/home/userLikeData.npy'
 userDislikeDataLocation='/home/userDislikeData.npy'
-omdbAPIKEY="" # Your OMDB API KEY goes here
+omdbAPIKEY="d123e7f6" # Your OMDB API KEY goes here
 
 # if user data is not created then create one dictionary file where all users will be saved
 def createFiles():

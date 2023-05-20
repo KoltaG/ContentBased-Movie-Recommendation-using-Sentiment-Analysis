@@ -42,7 +42,7 @@ public class MovieRatingSearchFragment extends Fragment implements View.OnClickL
     //All Layout and value container variables
     Bitmap moviePoster;
     Button buttonMovieSearch;
-    String APIKEY = ""; //API KEY Generated from OMDBAPI Website
+    String APIKEY = "d123e7f6"; //API KEY Generated from OMDBAPI Website
     String address = "https://www.omdbapi.com/?apikey=" + APIKEY + "&t=";
     String movieName = "";
     ProgressBar progressBar;

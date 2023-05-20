@@ -70,7 +70,7 @@ public class TwitterAnalyzerFragment extends Fragment implements View.OnClickLis
             }
             query += input[input.length - 1];
             // API address + SearchString is final API function call address
-            address = "https://major-project-final-246818.appspot.com/analyze/";
+            address = "https://movie-review-387316.ew.r.appspot.com/analyze/";
 
             //Call background thread to analyze thread
             TwitterAnalyzerFragment.TwitterAsyncTask task = new TwitterAnalyzerFragment.TwitterAsyncTask();

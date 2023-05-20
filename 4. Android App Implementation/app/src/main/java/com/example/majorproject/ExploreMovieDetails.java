@@ -67,8 +67,8 @@ public class ExploreMovieDetails extends AppCompatActivity implements View.OnCli
 
         //Server API address for Like/Dislike Action
         // When you create your own app engine then this will be different
-        likeURL = "https://major-project-final-246818.appspot.com/addLike/";
-        dislikeURL = "https://major-project-final-246818.appspot.com/addDislike/";
+        likeURL = "https://movie-review-387316.ew.r.appspot.com/addLike/";
+        dislikeURL = "https://movie-review-387316.ew.r.appspot.com/addDislike/";
 
         //Initialize all views and variables
         textViewTitle = findViewById(R.id.textViewMovieTitle);

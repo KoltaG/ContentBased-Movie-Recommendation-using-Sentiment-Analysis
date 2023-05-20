@@ -43,7 +43,7 @@ import javax.net.ssl.HttpsURLConnection;
 public class RecommendationFragment extends Fragment {
 
     //Server API method address to get the JSON response about recommended Movies
-    String recommendedMoviesURL = "https://major-project-final-246818.appspot.com/getRecommendation/";
+    String recommendedMoviesURL = "https://movie-review-387316.ew.r.appspot.com/getRecommendation/";
 
     //Holders for necessary views and userID
     String uID;

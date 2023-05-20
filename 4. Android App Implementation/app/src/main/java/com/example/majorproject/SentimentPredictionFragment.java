@@ -72,7 +72,7 @@ public class SentimentPredictionFragment extends Fragment implements View.OnClic
             review += input[input.length - 1];
 
             //append the query string at the end of address
-            address = "https://major-project-final-246818.appspot.com/sentiment/";
+            address = "https://movie-review-387316.ew.r.appspot.com/sentiment/";
 
             SentimentAsyncTask task = new SentimentAsyncTask();
             String url = address;

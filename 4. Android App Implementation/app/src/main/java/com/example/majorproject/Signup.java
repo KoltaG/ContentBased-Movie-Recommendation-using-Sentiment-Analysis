@@ -72,7 +72,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
                                 startActivity(mainActivity);
                             } else {
                                 //if registration failed then show error
-                                showToast("Registration Failed");
+                                showToast(task.getException().getMessage());
                             }
                         }
                     });
