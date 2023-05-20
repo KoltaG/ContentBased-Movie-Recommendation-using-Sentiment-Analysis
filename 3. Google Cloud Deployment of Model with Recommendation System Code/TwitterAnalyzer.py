@@ -15,10 +15,10 @@ import os
 
 def readDataFromTwitter(SearchString):
     #To login you need Goto twitter developer console and generate your own keys
-    consumer_key ='4dJkKUYFALKBUwaPKFDOZN0Mv'
-    consumer_secret = '1g2CFfyFtZR692AC8UZuK4S8v2sDfhgIE7Kp5C8RXZvRnWdwYx'
-    access_token = '1275869354-PRhbpaQC2VzAYqXDGrU4as9IaTdQyq6ovol1Vez'
-    access_token_secret = '8DJq6IxEfcNWwd4J2p6ilUJEZV214FvaH69hB6WQjLkH3'
+    consumer_key =''
+    consumer_secret = ''
+    access_token = ''
+    access_token_secret = ''
 
 
     #Perform authentication with Twitter
